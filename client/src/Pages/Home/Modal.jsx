@@ -1,10 +1,16 @@
 import Modal, { Children } from "react"
 import "./Modal.css"
 
-export default function Podal({props, isOpen, setModalOpen, children}){
+export default function Podal({integer, setLotacaoBotao, isOpen, setModalOpen, children}){
 
+    const handleIncreaseLotacaoBotao = () => {
+          setLotacaoBotao((prevLotacao) => prevLotacao + 1);
+          console.log("cheguei na funcao");
+          setModalOpen()
+      };
 
     if(isOpen){
+
         return(
 
             
@@ -16,12 +22,14 @@ export default function Podal({props, isOpen, setModalOpen, children}){
                         Cancelar
                     </button>
 
-                    <button id = "BLOCO_CONFIRMAR">
+                    <button id = "BLOCO_CONFIRMAR" onClick = {handleIncreaseLotacaoBotao}>
                         Confirmar
+                        {setModalOpen}
                     </button>
 
                     <div id = "CONTEUDO_MODAL">
-                        <p>TESTANDO {props.integer}</p>
+                        {children}
+                        {integer}
                     </div>
 
                 </div>
