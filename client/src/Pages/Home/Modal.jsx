@@ -29,15 +29,17 @@ export default function Podal({integer, setLotacaoBotao, isOpen, setModalOpen, c
                     <div id = "CONTEUDO_MODAL">
 
                         
-                       
-                        <div id = "IMAGEM_DISPONIVEL"></div>
-
                         <p id = "TITULO_DISPONIVEL">Disponível</p>
+
+                        <p id = "IMAGEM_DISPONIVEL"></p>
 
                         <p id = "VAGAS_MODAL">Vagas Preenchidas / Total</p>
 
-                        <p id = "PESSOAS_MODAL">{integer}</p>
-                        
+                        <p id = "IMAGEM_USUARIO"></p>
+
+                        <p id = "PESSOAS_MODAL">{integer} / 50</p>
+
+                        <p id = "LINHA_MODAL">________________________________________________</p>
                     </div>
 
                 </div>

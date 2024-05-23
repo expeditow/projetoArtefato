@@ -68,23 +68,29 @@ font-size: 28px;
 #CONTEUDO_MODAL {
   font: 'Montserrat';
   transform: translateX(-50%);
-  position: absolute;
+  position: relative;
   top: 20%;
   left: 50%;
+  transform: translateX(-50%);
+  height: 100px;
 }
 #TITULO_DISPONIVEL {
     font-size: 62px;
     font-weight: bold;
-    position: absolute;
     font-family: 'Montserrat';
     color: rgba(28, 76, 46, 1);
-    top: -300%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    top: -75px;
+    left: 11%;
 }
 #PESSOAS_MODAL{
     font-family: 'Montserrat';
-    position: absolute;
+    font-size: 23px;
+    font-weight: medium;
+    color: rgba(0,0,0,0.6);
+    position: relative;
+    left: 43%;
+    top: -122px;
 }
 
 #VAGAS_MODAL{
@@ -92,20 +98,35 @@ font-size: 28px;
     font-weight: medium;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.9);
-    font-size: 22px;
-    width: 400px;
-    top: 120%;
-    position: absolute;
-    transform: translateX(5%);
+    font-size: 25px;
+    position: relative;
+    left: 14%;
+    top: -110px;
 }
 
 #IMAGEM_DISPONIVEL{
-width: 150px;
-height: 150px;
+width: 135px;
+height: 135px;
 background-image: url(https://cdn.discordapp.com/attachments/1227799159159914569/1243044201038479493/check-mark_1.png?ex=66500aa0&is=664eb920&hm=04726b568c86f0ae799a014ad09879b9b25a8fe6704a9ed2727b1590557b6c6a&);
 background-size: cover;
 background-position: center;
-position: absolute;
-top: -80%;
+position: relative;
 left: 35%;
+top: -100px;
+}
+#IMAGEM_USUARIO{
+  width: 20px;
+  height: 20px;
+  opacity: 0.4;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: -99px;
+  left: 37%;
+  background-image: url(https://cdn.discordapp.com/attachments/1227799159159914569/1243216980337758270/user.png?ex=6650ab89&is=664f5a09&hm=f826ec1d9001135e19dd10e0217cd1d91334bb839bbe831ed752dc8ef29b3240&);
+}
+#LINHA_MODAL{
+  position: relative;
+  top: -125px;
+  left: 8%;
 }
