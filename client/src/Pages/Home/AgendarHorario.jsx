@@ -4,6 +4,7 @@ import Modal from './Modal'
 import "./AgendarHorario.css";
 
 function AgendarHorario() {
+  
   const { nomeUsuario } = useParams();
   const { emailUsuario } = useParams();
 
@@ -120,51 +121,51 @@ function AgendarHorario() {
     
     <>
 
-    <Modal isOpen = {openModal1140} setModalOpen = {() => setOpenModal1140(!openModal1140)}>
+   <Modal integer = {lotacaoBotao1} isOpen = {openModal1140} setModalOpen = {() => setOpenModal1140(!openModal1140)}>
       {/* children*/}
         Conteudo modal
     </Modal>
     
-    <Modal isOpen = {openModal1150} setModalOpen = {() => setOpenModal1150(!openModal1150)}>
+    <Modal integer = {lotacaoBotao5} isOpen = {openModal1150} setModalOpen = {() => setOpenModal1150(!openModal1150)}>
       {/* children*/}
         Conteudo modal
     </Modal>
 
-    <Modal isOpen = {openModal1200} setModalOpen = {() => setOpenModal1200(!openModal1200)}>
+    <Modal integer = {lotacaoBotao2} isOpen = {openModal1200} setModalOpen = {() => setOpenModal1200(!openModal1200)}>
       {/* children*/}
         Conteudo modal
     </Modal>
-    <Modal isOpen = {openModal1210} setModalOpen = {() => setOpenModal1210(!openModal1210)}>
-      {/* children*/}
-        Conteudo modal
-    </Modal>
-
-    <Modal isOpen = {openModal1220} setModalOpen = {() => setOpenModal1220(!openModal1220)}>
+    <Modal integer = {lotacaoBotao6} isOpen = {openModal1210} setModalOpen = {() => setOpenModal1210(!openModal1210)}>
       {/* children*/}
         Conteudo modal
     </Modal>
 
-    <Modal isOpen = {openModal1230} setModalOpen = {() => setOpenModal1230(!openModal1230)}>
+    <Modal integer = {lotacaoBotao3} isOpen = {openModal1220} setModalOpen = {() => setOpenModal1220(!openModal1220)}>
       {/* children*/}
         Conteudo modal
     </Modal>
 
-    <Modal isOpen = {openModal1240} setModalOpen = {() => setOpenModal1240(!openModal1240)}>
+    <Modal integer = {lotacaoBotao7} isOpen = {openModal1230} setModalOpen = {() => setOpenModal1230(!openModal1230)}>
       {/* children*/}
         Conteudo modal
     </Modal>
 
-    <Modal isOpen = {openModal1250} setModalOpen = {() => setOpenModal1250(!openModal1250)}>
+    <Modal integer = {lotacaoBotao4} isOpen = {openModal1240} setModalOpen = {() => setOpenModal1240(!openModal1240)}>
       {/* children*/}
         Conteudo modal
     </Modal>
 
-    <Modal isOpen = {openModal1300} setModalOpen = {() => setOpenModal1300(!openModal1300)}>
+    <Modal integer = {lotacaoBotao8} isOpen = {openModal1250} setModalOpen = {() => setOpenModal1250(!openModal1250)}>
       {/* children*/}
         Conteudo modal
     </Modal>
 
-    <Modal isOpen = {openModal1310} setModalOpen = {() => setOpenModal1310(!openModal1310)}>
+    <Modal integer = {lotacaoBotao10} isOpen = {openModal1300} setModalOpen = {() => setOpenModal1300(!openModal1300)}>
+      {/* children*/}
+        Conteudo modal
+    </Modal>
+
+    <Modal integer = {lotacaoBotao9} isOpen = {openModal1310} setModalOpen = {() => setOpenModal1310(!openModal1310)}>
       {/* children*/}
         Conteudo modal
     </Modal>
