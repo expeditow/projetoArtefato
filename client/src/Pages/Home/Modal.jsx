@@ -16,7 +16,7 @@ export default function Podal({integer, setLotacaoBotao, isOpen, setModalOpen, c
             
             <div id="BACKGROUND_id">
 
-                <div id="MODAL_id">
+                <div id="BLOCO_DISPONÍVEL">
 
                     <button id = "BLOCO_CANCELAR" onClick={setModalOpen}>
                         Cancelar
@@ -24,12 +24,20 @@ export default function Podal({integer, setLotacaoBotao, isOpen, setModalOpen, c
 
                     <button id = "BLOCO_CONFIRMAR" onClick = {handleIncreaseLotacaoBotao}>
                         Confirmar
-                        {setModalOpen}
                     </button>
 
                     <div id = "CONTEUDO_MODAL">
-                        {children}
-                        {integer}
+
+                        
+                       
+                        <div id = "IMAGEM_DISPONIVEL"></div>
+
+                        <p id = "TITULO_DISPONIVEL">Disponível</p>
+
+                        <p id = "VAGAS_MODAL">Vagas Preenchidas / Total</p>
+
+                        <p id = "PESSOAS_MODAL">{integer}</p>
+                        
                     </div>
 
                 </div>
